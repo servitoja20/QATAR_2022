@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 2.7em;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 1.25em;
+}
+
+body{
+  font-family: 'roboto',sans-serif;
+}
+
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(158, 25, 20, 0.616);
+  box-shadow: 2px 2px 10px rgb(0, 0, 0.5);
+  color: white;
+  background-color: rgb(165, 42, 42);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(209, 24, 24);
+}
+
+.container{
+  max-width: 100px;
+  height: 150px;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: rgb(158,25,20,0.620);
+}
+
+.header_first-image{
+  width: 150px;
+  height: 120px;
+}
+
+.header_second-image{
+  height: 130px;
+}
+
+header.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.hero p{
+  width: 90%;
+}
+
+.hero_image-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.hero_flag{
+  width: 300px;
+  height: 180px;
+  margin: 20px 0;
+  transition: all 0.5s ease-out;
+}
+
+.hero_flag:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.copa_du{
+  height: 150px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(158,25,20,0.620);
+  color: #9a1032;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
